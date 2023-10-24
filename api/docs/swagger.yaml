@@ -1,0 +1,18 @@
+info:
+  contact: {}
+  description: Created by Otajonov Quvonchbek
+paths:
+  /v1/days:
+    get:
+      description: 2025 yil 1 yanvargacha qolgan kunlar sonini hisoblab qaytaradi.
+      responses: {}
+      security:
+      - BearerAuth: []
+      tags:
+      - Day
+securityDefinitions:
+  BearerAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

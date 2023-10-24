@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hp/go/src/gitlab.com/iman_api'
+go run cmd/main.go
+make: Leaving directory '/home/hp/go/src/gitlab.com/iman_api'
+ 
